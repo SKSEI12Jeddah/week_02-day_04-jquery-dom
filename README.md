@@ -34,7 +34,7 @@ Demo translating a wireframe into a tree diagram.
 
 1. Diagram the DOM of this webpage.
 
-## Demo: The Document Object
+## The Document Object
 
 ```js
 // returns a representation of the current html document
