@@ -32,10 +32,7 @@ Demo translating a wireframe into a tree diagram.
 
 ## Lab: Diagram the DOM
 
-1. Consultant: Give wireframe
-1. Developer: Draw a tree diagram
-1. Consultant: Draw the solution
-1. Discussion and questions
+1. Diagram the DOM of this webpage.
 
 ## Demo: The Document Object
 
