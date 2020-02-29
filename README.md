@@ -326,6 +326,34 @@ function printUserInput (event) {
 $('form').on('submit', printUserInput)
 ```
 
+### Example: mouseenter() Event
+
+The mouseenter() method attaches an event handler function to an HTML element.
+
+The function is executed when the mouse pointer enters the HTML element:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#p1").mouseenter(function(){
+    alert("You entered p1!");
+  });
+});
+</script>
+</head>
+<body>
+
+<p id="p1">Enter this paragraph.</p>
+
+</body>
+</html>
+```
+
+
 
 ### Lab: jQuery Events
 
