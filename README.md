@@ -259,13 +259,6 @@ Discuss the difference between
 - [.toggleClass()](http://api.jquery.com/toggleClass/)
 - [.hasClass()](http://api.jquery.com/hasClass/)
 
-### Lab: Manipulate the DOM
-
-Open [exercise/jquery-manipulate/index.html](exercise/jquery-manipulate/index.html) in your browser. 
-
-Open [exercise/jquery-manipulate](exercise/jquery-manipulate/) folder in your text editor.
-
-Complete the exercises in [exercise/jquery-manipulate/main.js](exercise/jquery-selectors/main.js).  You will see the results in the browser.
 
 ## DOM Events and Event Handlers
 
