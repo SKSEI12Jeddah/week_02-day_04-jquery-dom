@@ -152,7 +152,7 @@ Read more about [jQuery selectors](https://learn.jquery.com/using-jquery-core/se
 
 <img width="806" alt="screen shot 2019-01-22 at 10 25 24 am" src="https://user-images.githubusercontent.com/5384023/51586819-b6899e00-1eef-11e9-8897-9f845871a209.png">
 
-### Getters
+### Getters - Code Along
 
 Once we select an element, we may want to get information from it like the text in the element or the value in a form.  jQuery provides us with methods that we can use to get information from an element.
 
@@ -176,7 +176,7 @@ $('h1').text() // Hello World
 $('ul').html() // ??
 ```
 
-### Setters
+### Setters - Code Along
 
 When we select an element, may want to change the information like update the text in the element or add html to an element.  jQuery provides us with methods that we can use to set information of an element.
 
