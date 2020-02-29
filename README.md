@@ -13,12 +13,6 @@ By the end of this, developers should be able to:
 - Put data into the DOM using jQuery.
 - Use event listeners and handlers for user interaction
 
-## Preparation
-
-1. Fork and clone this repository.
-1. Create a new branch, `training`, for your work.
-1. Checkout to the `training` branch.
-
 ## The Document Object Model (DOM)
 
 The DOM is a (potentially) large object that describes the structure of our
