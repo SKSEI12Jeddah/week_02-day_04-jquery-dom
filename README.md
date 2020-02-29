@@ -389,6 +389,204 @@ Discuss and experiment with
 - [.slideDown()](https://api.jquery.com/slideDown/)
 - [.animate()](https://api.jquery.com/animate/)
 
+
+## JQuery Effects
+
+### Example: jQuery hide() and show()
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
+</script>
+</head>
+<body>
+
+<p>If you click on the "Hide" button, I will disappear.</p>
+
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+
+</body>
+</html>
+```
+
+### Example: jQuery hide() and show() with controlling speed
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide(1000);
+  });
+  $("#show").click(function(){
+    $("p").show(1000);
+  });
+});
+</script>
+</head>
+<body>
+
+<p>If you click on the "Hide" button, I will disappear.</p>
+
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+
+</body>
+</html>
+
+```
+
+###  Example: jQuery toggle()
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").toggle();
+  });
+});
+</script>
+</head>
+<body>
+
+<button>Toggle between hiding and showing the paragraphs</button>
+
+<p>This is a paragraph with little content.</p>
+<p>This is another small paragraph.</p>
+
+</body>
+</html>
+```
+
+### Example: jQuery fadeToggle() Method
+
+The jQuery fadeToggle() method toggles between the fadeIn() and fadeOut() methods. <br>
+
+If the elements are faded out, fadeToggle() will fade them in. <br>
+
+If the elements are faded in, fadeToggle() will fade them out. <br>
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").fadeToggle();
+    $("#div2").fadeToggle("slow");
+    $("#div3").fadeToggle(3000);
+  });
+});
+</script>
+</head>
+<body>
+
+<p>Demonstrate fadeToggle() with different speed parameters.</p>
+
+<button>Click to fade in/out boxes</button><br><br>
+
+<div id="div1" style="width:80px;height:80px;background-color:red;"></div>
+<br>
+<div id="div2" style="width:80px;height:80px;background-color:green;"></div>
+<br>
+<div id="div3" style="width:80px;height:80px;background-color:blue;"></div>
+
+</body>
+</html>
+```
+
+### Example: jQuery slideToggle() Method
+
+The jQuery slideToggle() method toggles between the slideDown() and slideUp() methods. <br>
+
+If the elements have been slid down, slideToggle() will slide them up. <br>
+ 
+If the elements have been slid up, slideToggle() will slide them down. <br>
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+<style> 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
+</head>
+<body>
+ 
+<div id="flip">Click to slide the panel down or up</div>
+<div id="panel">Hello world!</div>
+
+</body>
+</html>
+```
+
+
+### Example: jQuery animate()
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    var div = $("div");
+    div.animate({height: '300px', opacity: '0.4'}, "slow");
+    div.animate({width: '300px', opacity: '0.8'}, "slow");
+    div.animate({height: '100px', opacity: '0.4'}, "slow");
+    div.animate({width: '100px', opacity: '0.8'}, "slow");
+  });
+});
+</script> 
+</head>
+<body>
+
+<button>Start Animation</button>
+
+<p>By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!</p>
+
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+
+</body>
+</html>
+```
+
 ### Lab: jQuery Animations
 Open [exercise/jquery-animations/index.html](exercise/jquery-animations/index.html) in your browser.
 
