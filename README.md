@@ -326,30 +326,6 @@ function printUserInput (event) {
 $('form').on('submit', printUserInput)
 ```
 
-What is the `event` key word?
-
-
-### Demo: event.target
-
-Open the console in chrome and paste the following code in.
-
-```js
-$('h1').on('click', function(event){
-  console.log('event is', event)
-})
-```
-
-How would we access specific attributes of that event? Try adding this code
-now as well:
-
-```js
-$('h1').on('click', function(event){
-  console.log('event.target is ', event.target)
-})
-$('h1').on('click', function(event){
-  console.log('event.type is ', event.type)
-})
-```
 
 ### Lab: jQuery Events
 
