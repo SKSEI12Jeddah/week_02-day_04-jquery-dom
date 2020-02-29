@@ -30,7 +30,7 @@ DOM **is not** the source code.
 
 ## Lab: Diagram the DOM
 
-1. Diagram the DOM of this webpage.
+1. Diagram the DOM of [this webpage](https://web.ics.purdue.edu/~gchopra/class/public/pages/webdesign/05_simple.html)
 
 ## The Document Object
 
