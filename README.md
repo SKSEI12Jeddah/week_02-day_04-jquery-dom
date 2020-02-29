@@ -369,15 +369,8 @@ Open [exercise/color-scheme-picker/index.html](exercise/color-scheme-picker/inde
 
 Open [exercise/color-scheme-picker/](exercise/color-scheme-picker/) folder in your text editor.
 
-Complete the exercises in [exercise/color-scheme-picker/js/main.js](exercise/color-scheme-picker/main.js). You will see the results in the browser console.
+Complete the exercises in [exercise/color-scheme-picker/js/index.js](exercise/color-scheme-picker/js/index.js). You will see the results in the browser console.
 
-### Lab: Traffic Light
-
-Open [exercise/traffic-light/index.html](exercise/traffic-light/index.html) in your browser.
-
-Open [exercise/traffic-light/](exercise/traffic-light/) folder in your text editor.
-
-Complete the exercises in [exercise/traffic-light/js/main.js](exercise/traffic-light/main.js). You will see the results in the browser console.
 
 ## jQuery Animations
 
