@@ -605,15 +605,11 @@ with our handlers. See [.click()](https://api.jquery.com/click/) vs.
     necessary, because when you use `.on('click')` jQuery will attach the
     eventHandler on every single node in the jQuery object.
     
- # jQuery Quiz
-```html
+## jQuery Quiz
 - [Quiz](https://www.w3schools.com/quiztest/quiztest.asp?qtest=jQuery)
-```
 
-# jQuery Exercise
-```html
+## jQuery Exercise
 - [Exercise](https://www.w3schools.com/jquery/jquery_exercises.asp)
-```
 
 ## Additional Resources
 
