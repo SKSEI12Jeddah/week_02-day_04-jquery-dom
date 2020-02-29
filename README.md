@@ -326,7 +326,7 @@ function printUserInput (event) {
 $('form').on('submit', printUserInput)
 ```
 
-### Example: mouseenter() Event
+### Code Along: mouseenter() Event
 
 The mouseenter() method attaches an event handler function to an HTML element.
 
