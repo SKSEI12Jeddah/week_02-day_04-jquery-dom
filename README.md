@@ -26,8 +26,6 @@ DOM **is not** the source code.
 
 ## Demo: Diagram the DOM
 
-Demo translating a wireframe into a tree diagram.
-
 ![dom](https://github.com/wdi-infinity/lesson-week_02-day_03-dom/blob/master/DOM-Model-00-01.png?raw=true)
 
 ## Lab: Diagram the DOM
